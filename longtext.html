@@ -7,7 +7,10 @@
   <body>
     <h1>Long Text Image</h1>
     <main>
-      <img src="./static/images/Pug.jpg" longdesc="./longdesc.txt" />
+      <img src="./static/images/Pug.jpg" aria-describedby="longdesc" alt="Pug" />
+      <a id="longdesc" href="./longdesc.txt">See full description</a>
+
+      <img src="./static/image/Pug.jpg" alt="" /> <!-- screenreaders will ignore this image -->
     </main>
   </body>
 </html>
