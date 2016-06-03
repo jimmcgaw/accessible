@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Web Accessibility Demo Page</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <meta name="description" content="Web Accessibility Demo Page">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="static/bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="static/bower_components/ionicons/css/ionicons.css">
+    <link rel="stylesheet" href="static/css/styles.css">
+  </head>
+  <body>
+    <div id="content">
+      
+      <header role="banner">
+
+        <a class="skip-link" href="#maincontent">Skip To Main Content</a>
+        
+        <h2>
+          Leading The Blind
+        </h2>
+
+      </header>
+
+      <nav role="navigation">
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+        </ul>
+      </nav>
+
+      <main id="maincontent" role="main">
+          
+          Welcome to this page. Can I get VoiceOver to read this text? Let's see.
+
+      </main>
+
+      <footer>
+        Copyright &copy; 2016 by Some Moron
+      </footer>
+
+    </div>
+
+    <script type="text/javascript" src="static/bower_components/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="static/js/index.js"></script>
+  </body>
+</html>
